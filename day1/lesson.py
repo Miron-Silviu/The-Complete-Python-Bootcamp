@@ -1,12 +1,30 @@
 
-# 1PRINT HELLO WORLD
+#  Lesson 1 PRINT HELLO WORLD
 
-print("Hello World")
+# print("Hello World")
 
 
-# 2 STRING MANIPULATION
-print("Hello world!\nHello world\nHello world!")
+# Lesson 2 STRING MANIPULATION
+# print("Hello world!\nHello world\nHello world!")
 
 # 3 String Concatenation
 
-print("Hello" + " "+ "Silviu")
+# print("Hello" + " "+ "Silviu")
+
+
+# Lesson 4 Input function
+
+# print("Hello"+input("what is your name?"))
+
+# 5 Variable
+
+name = "Jack"
+
+print(name)
+
+name ="Silviu"
+print(name)
+
+name =input("What is your name?")
+length = len( name )
+print(length)
