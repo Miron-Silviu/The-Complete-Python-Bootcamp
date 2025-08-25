@@ -31,9 +31,24 @@
 # # print(70+float("100.5"))
 # print(str(70)+str(100))
 
-# TODO
+
 # 3 Mathematical operations
 
-number =17/3
+# number =17/3
+#
+# print(3*(3+3)/3-3)
 
-print(3*(3+3)/3-3)
+
+# 4 Number manipulation and F sting
+
+
+print(round(8/3,2 ))
+print(round(2.666666,2))
+print(8//3)
+
+score = 0
+height = 1.8
+isWinning =True
+
+#f-string
+print(f"your score is {score}, your height is {height}, you are winning is {isWinning}" )
